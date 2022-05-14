@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif ;
+}
+
+.topcontainer {
+    background-color: #1f2937;
+    /* adding the padding in the topcontainer reduces the need to add the padding in 
+       each child */
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a {
+    /*text decoration has to be connected to an anchor, hense "a" */
+    text-decoration: none;
+    color: #f9faf8
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.headtitle {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
