@@ -69,6 +69,7 @@ ul {
 .topcontainer img {
     width: 800px;
     height: auto;
+    
 }
 
 .toptext {
@@ -108,7 +109,7 @@ button {
     flex-direction: row;
     justify-content: center;
     gap: 100px;
-    
+    flex-wrap: wrap;    
 }
 
 .textpicture img {
@@ -153,17 +154,23 @@ button {
     font-style: italic;    
 }
 
+.fourthcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .fourthsmaller {
     display: flex;
     justify-content: center;
     background-color: #3882f6;
     color: #e5e7eb;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /*when dealing with margin or padding, when you want to adjust the height
+    and the width evenly on all sides, the first number below is for the top/bottom,
+    the second is for left/right */
+    margin: 60px auto;
+    padding: 20px 300px;
     border-radius: 10px;
 }
 
